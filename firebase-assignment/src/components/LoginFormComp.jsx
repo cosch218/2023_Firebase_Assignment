@@ -58,7 +58,7 @@ export default function LoginFormComp() {
       if (errorCode == "auth/wrong-password" || errorCode == "auth/user-not-found" ) {
         alert('아이디가 존재하지 않거나 비밀번호가 일치하지 않습니다')
       }
-      navigate('/home');
+      navigate('/');
     });
   }
 
